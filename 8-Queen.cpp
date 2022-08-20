@@ -12,7 +12,6 @@ bool isSafe(std::vector<std::vector<int>>& vec, int row, int col) {
             return false;
         }
     }
-
     for (int i = row, j = col; j >= 0 && i < vec.size(); ++i, --j) {
         if (vec[i][j]) {
             return false;
